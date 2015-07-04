@@ -11,12 +11,11 @@ url_scheme:
     error: "/error/"
 options:
     reader:
-        directory: "content"
+        content: "content"
         extension: "md"
+        template: "template"
     writer:
         directory: "site"
-    jinja:
-        template: "template"
     markdown:
         extras: ["tables", "code-highlight"]
     blank:
